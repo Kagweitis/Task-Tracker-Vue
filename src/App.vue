@@ -1,7 +1,7 @@
 <template>
 <div class="container">
   <Header @toggle-add-class="showAddTask" />
-
+  
   <div v-if="addTaskShow">
     <AddTask @add-task="addTask" />
   </div>
